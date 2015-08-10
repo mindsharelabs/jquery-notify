@@ -1,12 +1,12 @@
 === jQuery Notify ===
-Contributors: mindshare, sekatsim
+Contributors: mindshare
 Donate link: http://jquery-notify.mindsharelabs.com/
 Tags: notification, notify, jquery, popup, message
 Requires at least: 3.0
 Tested up to: 4.3
 Stable tag: 0.4
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 An attractive, lightweight, and highly configurable jQuery notification pane.
 
@@ -87,7 +87,7 @@ You would then use this style with `[jq_notify style="my-style-name"] Content [/
 
 == Changelog ==
 
-= 0.4 ==
+= 0.4 =
 * Updated for Git repo, tested on WP 4.3
 
 = 0.3 =
