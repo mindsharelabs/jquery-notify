@@ -3,8 +3,8 @@ Contributors: mindshare, sekatsim
 Donate link: http://jquery-notify.mindsharelabs.com/
 Tags: notification, notify, jquery, popup, message
 Requires at least: 3.0
-Tested up to: 3.4.1
-Stable tag: 0.3
+Tested up to: 4.3
+Stable tag: 0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,6 +86,9 @@ You would then use this style with `[jq_notify style="my-style-name"] Content [/
 3. The plugin in action, using the "error" style
 
 == Changelog ==
+
+= 0.4 ==
+* Updated for Git repo, tested on WP 4.3
 
 = 0.3 =
 *   Fixed issue with default parameters not being applied to the template tag (thanks, jefs42)
