@@ -3,7 +3,7 @@
 Plugin Name: jQuery Notify
 Plugin URI: https://mindsharelabs.com/downloads/jquery-notify/
 Description: An attractive, lightweight, and highly configurable jQuery notification pane.
-Version: 0.5
+Version: 0.5.1
 Author: Mindshare Studios, Inc.
 Author URI: https://mind.sh/are/
 License: GNU General Public License v3
@@ -195,15 +195,15 @@ if (!class_exists("jQuery_Notify")) {
 		 * OUTPUT HTML
 		 */
 		public function jqnm_output() {
-			if (!$this->options) {
+			if(!$this->options) {
 				$this->options = get_option('jqn_options');
 			}
 			?>
 			<div class="jqnm_<?php echo $this->style; ?> jqnm_message">
-				<?php echo $this->content; ?>
 				<?php if ($this->options[ 'close_button' ]) : ?>
-					<div class="jqn-close"></div>
+					<div class="jqn-close" title="Close"></div>
 				<?php endif; ?>
+				<?php echo $this->content; ?>
 			</div>
 			<?php
 		}
@@ -236,6 +236,7 @@ if (!function_exists("jq_notify")) {
 		$speed = isset($speed) ? $speed : $jquery_notification->options[ 'speed' ];
 		$delay = isset($delay) ? $delay : $jquery_notification->options[ 'delay' ];
 		$close_button = isset($close_button) ? $close_button : $jquery_notification->options[ 'close_button' ];
+
 
 		//$jquery_notification->options = update_option('jqn_options', $options);
 

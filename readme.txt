@@ -4,7 +4,7 @@ Donate link: https://mind.sh/are/donate/
 Tags: notification, notify, jquery, popup, message
 Requires at least: 3.0
 Tested up to: 4.4.2
-Stable tag: 0.5
+Stable tag: 0.5.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
