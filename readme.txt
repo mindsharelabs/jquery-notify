@@ -1,10 +1,10 @@
 === jQuery Notify ===
 Contributors: mindshare
-Donate link: http://jquery-notify.mindsharelabs.com/
+Donate link: https://mind.sh/are/donate/
 Tags: notification, notify, jquery, popup, message
 Requires at least: 3.0
-Tested up to: 4.3
-Stable tag: 0.4
+Tested up to: 4.4.2
+Stable tag: 0.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -20,8 +20,6 @@ jQuery Notify: a fast and easy way to display notifications on your website. Som
 *   Submission confirmation: ("Message sent. We'll be in touch soon.")
 *   Breaking news, updates, special offers
 *   Advertising
-
-Try a [demo](http://jquery-notify.mindsharelabs.com/).
 
 <h4>Features:</h4>
 
